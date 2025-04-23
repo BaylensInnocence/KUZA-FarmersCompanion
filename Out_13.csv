@@ -1,0 +1,10 @@
+"",Layer (type),Output Shape,Param #
+0,input_layer_5 (InputLayer),"(None, 160, 160, 3",0
+1,sequential_2 (Sequential)," (None, 160, 160, 3)",0
+2,true_divide_2 (TrueDivide)," (None, 160, 160, 3)",0
+3,subtract_2 (Subtract)," (None, 160, 160, 3)",0
+4,(Functional) mobilenetv2_1.00_160,"(None, 5, 5, 1280)","2,257,984"
+5,global_average_pooling2d_1,"(None, 1280)",0
+6,dense_3 (Dense),"(None, 512)",655872
+7,dropout_2 (Dropout),"(None, 512)",0
+8,dense_4 (Dense)," (None, 42) ",21546

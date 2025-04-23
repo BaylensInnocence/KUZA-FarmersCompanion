@@ -1,0 +1,10 @@
+"",Tomato,Maize,Tea,Onion,Rice,Bell Pepper,Cabbage,Apple
+0,Bacterial Leaf Spot,NaN,NaN,NaN,NaN,NaN,NaN,NaN
+1,Early Leaf Blight,NaN,NaN,NaN,NaN,NaN,NaN,NaN
+2,Late Leaf Blight,NaN,NaN,NaN,NaN,NaN,NaN,NaN
+3,Tomato Leaf Mosaic Virus,NaN,NaN,NaN,NaN,NaN,NaN,NaN
+4,Tomato Septoria leaf spot,NaN,Algal leaf in tea,NaN,NaN,NaN,NaN,NaN
+5,Two spotted spider mite in tomato,NaN,anthracnose in tea,NaN,Bacterial Leaf Blight,NaN,NaN,NaN
+6,Target Spot in tomato,NaN,Bird Eye spot in Tea,NaN,Brown Leaf Spot,NaN,NaN,Apple Leaf Scab
+7,Tomato mosaic virus,Maize Faw,Brown Blight in Tea,NaN,Leaf Smut,Early Leaf Blight,NaN,Apple Leaf Rot
+8,Tomato Fruit Canker,Maize Streak Virus,Red Leaf Spot in Tea,Powdery Mildew,Sogatella Pest,Fusarium Wilt,CP Deficiency,Cedar Apple Leaf Rust
