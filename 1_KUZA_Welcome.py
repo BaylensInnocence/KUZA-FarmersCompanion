@@ -20,7 +20,10 @@ st.write("Under the hood, *KUZA* has a custom and complex pre-trained computer V
 st.write(" *KUZA* will then diagnose the crop, list the threat level of the disease while highlighting the symptoms that the farmer should check for, thereafter suggesting treatments and preventive measures. 🧑‍⚕️")
 # st.write("") #describe the apps apparent functions (prediction and cure recommendations)
 
+
 st.header("_TO USE THE PREDICTION MODEL, CLICK ONTO THE SIDEBAR ON YOUR LEFT 👈 AND GO TO KUZA PREDICT_")
+
+
 st.sidebar.header("KUZA Farmer's Companion 🧑‍🌾")
 st.sidebar.subheader("By Baylen Chalopa - Data Scientist🧑‍💻")
 st.sidebar.subheader("Contact me here: +254706574724")
