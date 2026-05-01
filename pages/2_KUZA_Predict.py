@@ -67,7 +67,7 @@ try:
     image = st.file_uploader("Upload an image 📨", type=["png","jpg","jpeg"])
 
     if image is not None:
-        image = st.image(image)
+        image_to_display = st.image(image)
         pre_index, preimage = get_prediction(image)
         symptom, cause, treatment, prevention = give_recommendations(pre_index)
         
