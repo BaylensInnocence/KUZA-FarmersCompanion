@@ -64,12 +64,13 @@ valid_plants.drop(valid_plants.columns[valid_plants.columns.str.contains(
 st.dataframe(valid_plants)
 
 try:
-    image = st.file_uploader("Upload an image 📨")
+    image = st.file_uploader("Upload an image 📨", type=["png","jpg","jpeg"])
 
     if image is not None:
+        image = st.image(image)
         pre_index, preimage = get_prediction(image)
         symptom, cause, treatment, prevention = give_recommendations(pre_index)
-        image = st.image(image)
+        
         if preimage in Healthy:
             st.toast("Congratulations,your crop is healthy!🌱", icon="🥳")
             st.balloons()
